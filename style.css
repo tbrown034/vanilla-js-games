@@ -1,42 +1,49 @@
 body {
-  background-color: darkblue;
-  color: whitesmoke;
-}
+    background-color: darkblue;
+    color: whitesmoke;
+  }
 
-#introText h1 {
-  text-align: center;
-}
+  #introText h1 {
+    text-align: center;
+  }
 
-#gameSelector {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  padding: 20px; /* Adds space inside the container, around the items */
-}
+  #gameSelector {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px; /* Adds space inside the container, around the items */
+  }
 
-#gameSelector img {
-  width: 100%;
-  border-radius: 15px; /* Adjust this value to increase or decrease the roundness */
-}
+  #gameSelector img {
+    width: 100%;
+    border-radius: 15px; /* Adjust this value to increase or decrease the roundness */
+  }
 
-#gameSelector p {
-  color: aliceblue;
-  text-align: center;
-}
+  #gameSelector p {
+    color: aliceblue;
+    text-align: center;
+  }
 
-/* Image hover effect */
-#gameSelector img:hover {
-  transform: scale(1.05); /* Enlarge the image */
-  cursor: pointer; /* Indicate it's clickable */
-}
+  /* Image hover effect */
+  #gameSelector img:hover {
+    transform: scale(1.05); /* Enlarge the image */
+    cursor: pointer; /* Indicate it's clickable */
+  }
 
-#gameSelector img:active {
-  transform: scale(0.95); /* Mimic button press */
-}
+  #gameSelector img:active {
+    transform: scale(0.95); /* Mimic button press */
+  }
 
-/* Text hover effect */
-#gameSelector p:hover {
-  color: #add8e6; /* Light blue color to mimic hyperlink */
-  text-decoration: underline; /* Underline like a hyperlink */
-  cursor: pointer; /* Indicate it's clickable */
-}
+  /* Text hover effect */
+  #gameSelector p:hover {
+    color: #add8e6; /* Light blue color to mimic hyperlink */
+    text-decoration: underline; /* Underline like a hyperlink */
+    cursor: pointer; /* Indicate it's clickable */
+  }
+
+  /* Styles for game content */
+  .game {
+    display: none; /* Initially hidden */
+  }
+
+  /* Back button styling *
